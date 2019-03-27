@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Anime Force",
-    "currentPage": "skillsandweapons.html",
+    "currentPage": "beasts.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -32,7 +32,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.8.8",
     "siteFonts": [],
-    "uniqCompNum": 75,
+    "uniqCompNum": 76,
     "versionPublish": "4.8.8",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/planet-vegeta-128x160.png",
@@ -3905,6 +3905,34 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            "@media (min-width: 992px)": {
+              ".mbr-figure": {
+                "padding-right": "4rem"
+              }
+            },
+            "@media (max-width: 992px)": {
+              ".mbr-figure": {
+                "padding-bottom": "1rem"
+              }
+            },
+            ".mbr-text": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "content6",
+          "_customHTML": "<section class=\"mbr-section content6\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n\n      <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"60\">\n      <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#232323\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n    \n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"media-container-row\">\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                      <img src=\"@PROJECT_PATH@/assets/images/anirazaa-436x645.png\" alt=\"Mobirise\" title>  \n                    </div>\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">NAME: <b>ANILAZA</b><br>HEALTH: <b>35</b> CP: <b>29</b><br>OWNERS: \n<br>10cp to summon, adds 4hp &amp; 14cp after summoning&nbsp;<br><br><b>BEAST SKILLS:</b><br><br><b>A- </b>Inter-Dimensional Punch: Give 4 damage to opponent, this damage cannot be neglected. 3cp to use.<br><b>B- </b>Head Beam: Give 5 damage to opponent &amp; stike out one of opponent's skills. 4cp to use.<br><b>C- </b>Anilaza Boost: All opponents lose 3hp. 1cp to use.<br><b>D- </b>&nbsp;Last Will: Cut a player's life to half, only when that player's health is 7 or below.<br><b>E- </b>Super Rast Wave: Give all players in the field 5 damage. 4cp to use.<br><b>F- </b>&nbsp;Auto Heal: All damage you recieve in your last turn is added as health for you. 3cp to use.</p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rlTP8uMnsQ",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content6-23"
         }
       ]
     }
